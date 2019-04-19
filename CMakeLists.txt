@@ -3,6 +3,5 @@ project(Programming_PgP_ C)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES blatt01/Smartphone.c)
-
-add_executable(Programming_PgP_ ${SOURCE_FILES})
+add_subdirectory(blatt01)
+add_subdirectory(blatt02)
